@@ -1,8 +1,8 @@
 -- Create the analytical database and Star Schema.
-CREATE DATABASE LicentaDWH_DWH;
+CREATE DATABASE Ecommerce_DWH;
 GO
 
-USE LicentaDWH_DWH;
+USE Ecommerce_DWH;
 GO
 
 CREATE SCHEMA dwh;

@@ -1,4 +1,4 @@
-USE LicentaDWH_DWH;
+USE Ecommerce_DWH;
 GO
 
 -- ========================

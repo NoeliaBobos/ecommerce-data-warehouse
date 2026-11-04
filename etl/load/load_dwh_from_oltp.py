@@ -4,8 +4,8 @@ import urllib.parse
 from sqlalchemy import create_engine, text
 
 SERVER = os.getenv("SQL_SERVER", "localhost")
-OLTP_DATABASE = os.getenv("OLTP_DATABASE", "LicentaDWH_OLTP")
-DWH_DATABASE = os.getenv("DWH_DATABASE", "LicentaDWH_DWH")
+OLTP_DATABASE = os.getenv("OLTP_DATABASE", "Ecommerce_OLTP")
+DWH_DATABASE = os.getenv("DWH_DATABASE", "Ecommerce_DWH")
 DRIVER = os.getenv("SQL_ODBC_DRIVER", "ODBC Driver 17 for SQL Server")
 
 

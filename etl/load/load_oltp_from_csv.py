@@ -6,7 +6,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 SERVER = os.getenv("SQL_SERVER", "localhost")
-DATABASE = os.getenv("OLTP_DATABASE", "LicentaDWH_OLTP")
+DATABASE = os.getenv("OLTP_DATABASE", "Ecommerce_OLTP")
 DRIVER = os.getenv("SQL_ODBC_DRIVER", "ODBC Driver 17 for SQL Server")
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]

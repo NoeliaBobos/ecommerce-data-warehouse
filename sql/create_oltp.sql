@@ -1,8 +1,8 @@
 -- Create the operational database and normalized OLTP schema.
-CREATE DATABASE LicentaDWH_OLTP;
+CREATE DATABASE Ecommerce_OLTP;
 GO
 
-USE LicentaDWH_OLTP;
+USE Ecommerce_OLTP;
 GO
 
 CREATE SCHEMA oltp;

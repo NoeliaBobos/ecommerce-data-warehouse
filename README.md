@@ -49,7 +49,7 @@ The included CSV files contain synthetic retail data: 5,000 customers, 500 produ
    python etl/load/load_oltp_from_csv.py
    python etl/load/load_dwh_from_oltp.py
    ```
-6. Open `dashboard/licenta_dashboard.pbix` in Power BI Desktop and configure its SQL Server data source for your environment.
+6. Open `dashboard/ecommerce_sales_dashboard.pbix` in Power BI Desktop and configure its SQL Server data source for your environment.
 
 To regenerate the synthetic CSV files, run `python etl/extract/generate_source_data.py`. This overwrites the CSV files in `data/source_raw/`.
 
