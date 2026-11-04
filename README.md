@@ -2,6 +2,16 @@
 
 A retail sales analytics project built with SQL Server, Python and Power BI. The project uses synthetic e-commerce data and a two-layer database design: a normalized OLTP database followed by a dimensional Data Warehouse (Star Schema).
 
+## Dashboard previews
+
+### Sales Performance Overview
+
+![Sales Performance Overview](screenshots/overview.png)
+
+### Product Analysis
+
+![Product Analysis](screenshots/product_analysis.png)
+
 ## Tech stack
 
 - Microsoft SQL Server
