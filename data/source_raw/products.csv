@@ -1,0 +1,501 @@
+product_id,product_name,category_id,price
+1,Shirt Model 1,3,354.37
+2,Jeans Model 2,3,446.42
+3,Mascara Model 3,6,165.01
+4,Sweater Model 4,3,506.94
+5,Dumbbell Model 5,5,473.59
+6,Plate Set Model 6,2,840.2
+7,Lipstick Model 7,6,153.7
+8,Guide Model 8,4,92.19
+9,Backpack Model 9,3,566.06
+10,Textbook Model 10,4,96.8
+11,Hat Model 11,3,120.63
+12,Chair Model 12,2,1429.77
+13,Printer Model 13,1,115.59
+14,Scarf Model 14,3,454.38
+15,Curtains Model 15,2,772.58
+16,Scarf Model 16,3,207.03
+17,Atlas Model 17,4,132.83
+18,Smartwatch Model 18,1,3722.41
+19,Printer Model 19,1,3142.97
+20,Laptop Model 20,1,2692.06
+21,Biography Model 21,4,189.57
+22,Smartwatch Model 22,1,891.91
+23,Basketball Model 23,5,35.47
+24,Running Shoes Model 24,5,736.07
+25,Basketball Model 25,5,978.57
+26,Desk Model 26,2,103.55
+27,Speaker Model 27,1,3690.29
+28,Chair Model 28,2,643.65
+29,Face Cream Model 29,6,283.96
+30,Yoga Mat Model 30,5,1139.82
+31,Soap Model 31,6,540.34
+32,Planner Model 32,4,224.77
+33,Storage Box Model 33,2,1353.44
+34,Football Model 34,5,298.46
+35,Desk Model 35,2,870.07
+36,Nail Polish Model 36,6,247.17
+37,Conditioner Model 37,6,82.92
+38,Headphones Model 38,1,2027.59
+39,Dumbbell Model 39,5,1293.06
+40,Smartwatch Model 40,1,3708.44
+41,Bicycle Helmet Model 41,5,44.44
+42,Backpack Model 42,3,73.14
+43,Scarf Model 43,3,402.5
+44,Biography Model 44,4,46.03
+45,Textbook Model 45,4,202.97
+46,Mouse Model 46,1,4430.85
+47,Nail Polish Model 47,6,219.44
+48,Tablet Model 48,1,4154.28
+49,Shirt Model 49,3,285.11
+50,Wall Clock Model 50,2,267.71
+51,Storage Box Model 51,2,921.69
+52,Biography Model 52,4,131.62
+53,Yoga Mat Model 53,5,899.29
+54,Sweater Model 54,3,154.79
+55,Hair Dryer Model 55,6,183.84
+56,Jeans Model 56,3,112.08
+57,Biography Model 57,4,56.65
+58,Desk Model 58,2,1178.76
+59,Soap Model 59,6,591.32
+60,Soap Model 60,6,15.33
+61,T-Shirt Model 61,3,387.17
+62,Dress Model 62,3,287.69
+63,Dumbbell Model 63,5,215.5
+64,T-Shirt Model 64,3,289.36
+65,Speaker Model 65,1,3178.42
+66,Fitness Band Model 66,5,57.97
+67,Printer Model 67,1,1683.71
+68,Keyboard Model 68,1,3299.94
+69,Jeans Model 69,3,457.43
+70,Smartphone Model 70,1,3485.85
+71,Bicycle Helmet Model 71,5,484.83
+72,Backpack Model 72,3,707.36
+73,Sweater Model 73,3,203.19
+74,T-Shirt Model 74,3,726.97
+75,Blanket Model 75,2,1070.67
+76,Dictionary Model 76,4,76.21
+77,Jacket Model 77,3,335.49
+78,Smartphone Model 78,1,1204.99
+79,Fitness Band Model 79,5,84.24
+80,Printer Model 80,1,1416.32
+81,Football Model 81,5,1529.25
+82,Shirt Model 82,3,165.3
+83,Headphones Model 83,1,2287.84
+84,T-Shirt Model 84,3,196.27
+85,Running Shoes Model 85,5,1551.85
+86,Keyboard Model 86,1,4082.7
+87,Notebook Model 87,4,84.99
+88,Mascara Model 88,6,264.18
+89,Jacket Model 89,3,85.83
+90,Monitor Model 90,1,4460.23
+91,Sneakers Model 91,3,782.68
+92,Perfume Model 92,6,161.98
+93,Sports Bag Model 93,5,1300.9
+94,Smartphone Model 94,1,658.46
+95,Wall Clock Model 95,2,881.2
+96,Perfume Model 96,6,94.87
+97,Blanket Model 97,2,1207.86
+98,Sweater Model 98,3,351.58
+99,Hat Model 99,3,563.92
+100,Mascara Model 100,6,295.99
+101,Running Shoes Model 101,5,157.31
+102,Yoga Mat Model 102,5,1519.66
+103,Conditioner Model 103,6,348.17
+104,Dictionary Model 104,4,40.89
+105,Storage Box Model 105,2,1184.88
+106,Jeans Model 106,3,434.7
+107,Lipstick Model 107,6,311.71
+108,Laptop Model 108,1,1579.48
+109,Headphones Model 109,1,4329.93
+110,Nail Polish Model 110,6,461.56
+111,Curtains Model 111,2,1456.79
+112,Jacket Model 112,3,165.94
+113,Bicycle Helmet Model 113,5,612.85
+114,Yoga Mat Model 114,5,1120.53
+115,Mascara Model 115,6,119.83
+116,Fitness Band Model 116,5,1232.15
+117,Planner Model 117,4,132.42
+118,Headphones Model 118,1,3195.22
+119,Football Model 119,5,754.65
+120,Shirt Model 120,3,516.63
+121,Tablet Model 121,1,2849.63
+122,T-Shirt Model 122,3,332.66
+123,Nail Polish Model 123,6,539.07
+124,Sweater Model 124,3,195.47
+125,Mouse Model 125,1,1752.32
+126,Desk Model 126,2,441.95
+127,Dumbbell Model 127,5,1646.74
+128,Hat Model 128,3,302.01
+129,Basketball Model 129,5,778.57
+130,Bicycle Helmet Model 130,5,512.67
+131,Lipstick Model 131,6,575.16
+132,Keyboard Model 132,1,4193.22
+133,Lamp Model 133,2,206.8
+134,Backpack Model 134,3,701.12
+135,Printer Model 135,1,1088.75
+136,Dictionary Model 136,4,108.67
+137,Atlas Model 137,4,246.77
+138,Nail Polish Model 138,6,70.03
+139,T-Shirt Model 139,3,59.87
+140,Album Model 140,4,282.21
+141,T-Shirt Model 141,3,780.17
+142,Cookbook Model 142,4,89.5
+143,Chair Model 143,2,1344.09
+144,Fitness Band Model 144,5,1264.25
+145,Curtains Model 145,2,491.33
+146,Yoga Mat Model 146,5,1037.5
+147,Conditioner Model 147,6,132.66
+148,Body Lotion Model 148,6,299.76
+149,Headphones Model 149,1,339.63
+150,Desk Model 150,2,469.14
+151,Sports Bag Model 151,5,1477.99
+152,Bicycle Helmet Model 152,5,557.11
+153,Sports Bag Model 153,5,787.13
+154,Conditioner Model 154,6,374.77
+155,Chair Model 155,2,1205.46
+156,Plate Set Model 156,2,689.3
+157,Running Shoes Model 157,5,829.7
+158,Jeans Model 158,3,514.17
+159,Wall Clock Model 159,2,840.9
+160,Smartwatch Model 160,1,472.19
+161,Face Cream Model 161,6,237.02
+162,Blanket Model 162,2,129.85
+163,Bicycle Helmet Model 163,5,463.67
+164,Lipstick Model 164,6,432.64
+165,Notebook Model 165,4,188.35
+166,Pillow Model 166,2,741.4
+167,Blanket Model 167,2,430.9
+168,Novel Model 168,4,291.94
+169,Chair Model 169,2,401.36
+170,Textbook Model 170,4,67.83
+171,Smartphone Model 171,1,4490.53
+172,Biography Model 172,4,109.54
+173,Pillow Model 173,2,447.15
+174,Yoga Mat Model 174,5,530.6
+175,Body Lotion Model 175,6,490.8
+176,Running Shoes Model 176,5,561.72
+177,Chair Model 177,2,869.95
+178,Nail Polish Model 178,6,371.2
+179,Headphones Model 179,1,4916.19
+180,Hat Model 180,3,376.21
+181,Speaker Model 181,1,3302.43
+182,Shampoo Model 182,6,232.75
+183,Face Cream Model 183,6,503.99
+184,Biography Model 184,4,192.66
+185,Nail Polish Model 185,6,513.6
+186,Laptop Model 186,1,4745.13
+187,Sweater Model 187,3,135.29
+188,Lipstick Model 188,6,241.08
+189,Body Lotion Model 189,6,504.43
+190,Water Bottle Model 190,5,726.03
+191,Smartwatch Model 191,1,451.87
+192,Tennis Racket Model 192,5,412.27
+193,Mouse Model 193,1,658.91
+194,Pillow Model 194,2,1479.9
+195,Backpack Model 195,3,414.34
+196,Tablet Model 196,1,1140.99
+197,Printer Model 197,1,4146.99
+198,Jeans Model 198,3,774.0
+199,Album Model 199,4,257.28
+200,Nail Polish Model 200,6,559.43
+201,Keyboard Model 201,1,2026.43
+202,Dumbbell Model 202,5,305.19
+203,Cookbook Model 203,4,217.36
+204,Headphones Model 204,1,1774.57
+205,Printer Model 205,1,671.34
+206,Headphones Model 206,1,2976.39
+207,Keyboard Model 207,1,3635.32
+208,Biography Model 208,4,215.85
+209,Laptop Model 209,1,4486.42
+210,Sweater Model 210,3,321.08
+211,Smartphone Model 211,1,2341.53
+212,Bicycle Helmet Model 212,5,183.09
+213,Tablet Model 213,1,4002.47
+214,Novel Model 214,4,185.93
+215,Nail Polish Model 215,6,482.47
+216,Desk Model 216,2,384.58
+217,Sneakers Model 217,3,673.79
+218,Shirt Model 218,3,589.85
+219,Face Cream Model 219,6,460.5
+220,Pillow Model 220,2,650.87
+221,Blanket Model 221,2,672.0
+222,Storage Box Model 222,2,764.6
+223,Jacket Model 223,3,416.23
+224,Blanket Model 224,2,284.55
+225,Yoga Mat Model 225,5,429.49
+226,Atlas Model 226,4,81.52
+227,Jacket Model 227,3,465.66
+228,Desk Model 228,2,1169.17
+229,Football Model 229,5,992.16
+230,Cookbook Model 230,4,219.76
+231,Soap Model 231,6,534.12
+232,Chair Model 232,2,321.23
+233,Laptop Model 233,1,2695.38
+234,Sports Bag Model 234,5,260.34
+235,Plate Set Model 235,2,446.68
+236,Mouse Model 236,1,882.36
+237,Plate Set Model 237,2,105.11
+238,Fitness Band Model 238,5,1743.31
+239,Cookware Set Model 239,2,862.3
+240,Cookbook Model 240,4,227.45
+241,Sneakers Model 241,3,477.71
+242,Desk Model 242,2,1039.94
+243,Fitness Band Model 243,5,202.9
+244,Hair Dryer Model 244,6,573.45
+245,Tennis Racket Model 245,5,1459.59
+246,Album Model 246,4,21.77
+247,Bicycle Helmet Model 247,5,968.39
+248,Basketball Model 248,5,1483.84
+249,Plate Set Model 249,2,1053.83
+250,Mascara Model 250,6,159.32
+251,Wall Clock Model 251,2,911.73
+252,Smartphone Model 252,1,1937.84
+253,Smartphone Model 253,1,4628.44
+254,Planner Model 254,4,106.19
+255,Wall Clock Model 255,2,1089.28
+256,Perfume Model 256,6,440.27
+257,Basketball Model 257,5,683.78
+258,Conditioner Model 258,6,480.19
+259,Body Lotion Model 259,6,438.5
+260,Cookbook Model 260,4,119.97
+261,Smartphone Model 261,1,4897.12
+262,Keyboard Model 262,1,3658.82
+263,Smartphone Model 263,1,114.66
+264,Shirt Model 264,3,378.53
+265,Plate Set Model 265,2,243.38
+266,Fitness Band Model 266,5,1484.59
+267,Storage Box Model 267,2,503.02
+268,Printer Model 268,1,2181.61
+269,Cookware Set Model 269,2,1463.76
+270,Sweater Model 270,3,490.22
+271,Water Bottle Model 271,5,706.78
+272,Planner Model 272,4,131.9
+273,Smartphone Model 273,1,592.03
+274,Dress Model 274,3,64.16
+275,Blanket Model 275,2,68.78
+276,Backpack Model 276,3,204.02
+277,Smartwatch Model 277,1,101.45
+278,Headphones Model 278,1,716.44
+279,Perfume Model 279,6,336.33
+280,Shampoo Model 280,6,141.32
+281,Biography Model 281,4,98.82
+282,Tablet Model 282,1,1294.26
+283,Tennis Racket Model 283,5,1000.78
+284,Pillow Model 284,2,1389.86
+285,Tablet Model 285,1,1880.51
+286,Running Shoes Model 286,5,935.03
+287,Nail Polish Model 287,6,192.4
+288,Backpack Model 288,3,254.22
+289,Pillow Model 289,2,1349.98
+290,Textbook Model 290,4,216.91
+291,Speaker Model 291,1,2940.33
+292,Biography Model 292,4,218.6
+293,Laptop Model 293,1,3074.65
+294,Smartwatch Model 294,1,3339.98
+295,Cookbook Model 295,4,106.57
+296,Dictionary Model 296,4,70.88
+297,Plate Set Model 297,2,416.33
+298,Fitness Band Model 298,5,899.52
+299,Tennis Racket Model 299,5,709.78
+300,Cookbook Model 300,4,183.42
+301,Tablet Model 301,1,1376.0
+302,Textbook Model 302,4,31.19
+303,Jeans Model 303,3,336.45
+304,Novel Model 304,4,164.3
+305,Basketball Model 305,5,1909.31
+306,T-Shirt Model 306,3,50.71
+307,Yoga Mat Model 307,5,1493.88
+308,T-Shirt Model 308,3,657.39
+309,Wall Clock Model 309,2,1163.2
+310,Planner Model 310,4,112.91
+311,Jacket Model 311,3,704.37
+312,Tablet Model 312,1,1147.59
+313,Jacket Model 313,3,366.54
+314,Face Cream Model 314,6,555.11
+315,Printer Model 315,1,2576.43
+316,Shampoo Model 316,6,118.19
+317,Running Shoes Model 317,5,749.32
+318,Lipstick Model 318,6,405.82
+319,Jacket Model 319,3,721.41
+320,Bicycle Helmet Model 320,5,1494.37
+321,Sports Bag Model 321,5,1168.03
+322,Jeans Model 322,3,711.59
+323,Nail Polish Model 323,6,421.84
+324,Printer Model 324,1,3142.11
+325,Basketball Model 325,5,388.22
+326,Body Lotion Model 326,6,204.69
+327,Backpack Model 327,3,782.5
+328,Wall Clock Model 328,2,1023.5
+329,Printer Model 329,1,2918.62
+330,Mouse Model 330,1,3509.97
+331,Atlas Model 331,4,245.42
+332,T-Shirt Model 332,3,208.14
+333,Album Model 333,4,250.98
+334,Desk Model 334,2,73.25
+335,Shirt Model 335,3,646.93
+336,T-Shirt Model 336,3,758.42
+337,Tennis Racket Model 337,5,426.71
+338,Hat Model 338,3,266.45
+339,Chair Model 339,2,517.86
+340,Printer Model 340,1,2265.42
+341,Monitor Model 341,1,3632.55
+342,Dress Model 342,3,761.37
+343,Hat Model 343,3,763.45
+344,Curtains Model 344,2,1127.43
+345,Printer Model 345,1,3955.89
+346,Monitor Model 346,1,896.69
+347,Shirt Model 347,3,361.72
+348,Nail Polish Model 348,6,42.7
+349,Body Lotion Model 349,6,567.63
+350,Plate Set Model 350,2,822.73
+351,Sweater Model 351,3,253.08
+352,Storage Box Model 352,2,615.75
+353,Lamp Model 353,2,358.72
+354,Sneakers Model 354,3,579.03
+355,Headphones Model 355,1,704.29
+356,Dumbbell Model 356,5,448.27
+357,Cookbook Model 357,4,64.47
+358,Tablet Model 358,1,897.89
+359,Tennis Racket Model 359,5,699.96
+360,Backpack Model 360,3,380.17
+361,Shampoo Model 361,6,114.57
+362,Atlas Model 362,4,41.56
+363,Running Shoes Model 363,5,1406.17
+364,Shirt Model 364,3,327.94
+365,Hair Dryer Model 365,6,442.66
+366,Guide Model 366,4,170.17
+367,Water Bottle Model 367,5,1541.84
+368,Biography Model 368,4,70.44
+369,Textbook Model 369,4,170.54
+370,Body Lotion Model 370,6,589.16
+371,Yoga Mat Model 371,5,1159.93
+372,Sports Bag Model 372,5,1921.25
+373,Pillow Model 373,2,613.3
+374,Cookware Set Model 374,2,629.09
+375,Novel Model 375,4,172.42
+376,Laptop Model 376,1,2046.28
+377,Blanket Model 377,2,555.5
+378,Biography Model 378,4,209.08
+379,Mascara Model 379,6,73.95
+380,Laptop Model 380,1,239.37
+381,Lamp Model 381,2,538.16
+382,Storage Box Model 382,2,821.93
+383,Nail Polish Model 383,6,516.33
+384,Lamp Model 384,2,713.43
+385,Shirt Model 385,3,91.12
+386,Textbook Model 386,4,143.32
+387,Plate Set Model 387,2,1377.83
+388,Pillow Model 388,2,1328.55
+389,Album Model 389,4,24.55
+390,Perfume Model 390,6,61.59
+391,Shampoo Model 391,6,351.17
+392,Blanket Model 392,2,1419.94
+393,Lipstick Model 393,6,288.54
+394,Keyboard Model 394,1,573.91
+395,Bicycle Helmet Model 395,5,499.49
+396,Running Shoes Model 396,5,1364.44
+397,Lamp Model 397,2,911.18
+398,Sports Bag Model 398,5,1159.65
+399,Pillow Model 399,2,1104.83
+400,Dress Model 400,3,738.28
+401,Lamp Model 401,2,1321.51
+402,Basketball Model 402,5,1802.1
+403,Bicycle Helmet Model 403,5,837.63
+404,Hair Dryer Model 404,6,470.73
+405,Sweater Model 405,3,116.51
+406,Smartwatch Model 406,1,2860.32
+407,Wall Clock Model 407,2,207.26
+408,Mouse Model 408,1,1235.33
+409,Scarf Model 409,3,374.9
+410,Cookware Set Model 410,2,125.46
+411,Cookware Set Model 411,2,322.21
+412,Novel Model 412,4,67.86
+413,Novel Model 413,4,137.58
+414,Laptop Model 414,1,967.98
+415,Shirt Model 415,3,429.66
+416,Body Lotion Model 416,6,133.82
+417,Body Lotion Model 417,6,430.35
+418,Fitness Band Model 418,5,1515.0
+419,Jacket Model 419,3,610.64
+420,Plate Set Model 420,2,206.15
+421,Bicycle Helmet Model 421,5,1791.32
+422,Water Bottle Model 422,5,649.69
+423,Conditioner Model 423,6,370.07
+424,Biography Model 424,4,55.86
+425,Perfume Model 425,6,551.09
+426,Soap Model 426,6,425.09
+427,Storage Box Model 427,2,464.17
+428,Curtains Model 428,2,59.52
+429,Plate Set Model 429,2,349.24
+430,Keyboard Model 430,1,3222.0
+431,Monitor Model 431,1,1608.42
+432,Chair Model 432,2,482.9
+433,Chair Model 433,2,758.92
+434,Guide Model 434,4,137.11
+435,Keyboard Model 435,1,863.22
+436,Tablet Model 436,1,430.48
+437,Nail Polish Model 437,6,567.56
+438,Basketball Model 438,5,1687.32
+439,Smartwatch Model 439,1,1793.76
+440,Sweater Model 440,3,394.76
+441,Wall Clock Model 441,2,889.11
+442,Scarf Model 442,3,41.41
+443,Basketball Model 443,5,964.24
+444,Yoga Mat Model 444,5,877.31
+445,Cookware Set Model 445,2,110.26
+446,Sweater Model 446,3,119.82
+447,Yoga Mat Model 447,5,1282.28
+448,Atlas Model 448,4,275.98
+449,Backpack Model 449,3,143.84
+450,Jacket Model 450,3,578.93
+451,Blanket Model 451,2,427.55
+452,Printer Model 452,1,3686.63
+453,Atlas Model 453,4,244.8
+454,Mouse Model 454,1,236.91
+455,Pillow Model 455,2,622.21
+456,Chair Model 456,2,338.4
+457,Plate Set Model 457,2,1492.2
+458,Blanket Model 458,2,762.31
+459,Jeans Model 459,3,136.94
+460,Nail Polish Model 460,6,377.57
+461,Monitor Model 461,1,3532.14
+462,Keyboard Model 462,1,1015.44
+463,Storage Box Model 463,2,736.49
+464,Backpack Model 464,3,69.39
+465,Bicycle Helmet Model 465,5,1536.43
+466,Curtains Model 466,2,1449.52
+467,Tablet Model 467,1,2056.79
+468,Hair Dryer Model 468,6,549.18
+469,Album Model 469,4,245.41
+470,Monitor Model 470,1,3061.3
+471,Face Cream Model 471,6,315.96
+472,Laptop Model 472,1,2670.1
+473,Dress Model 473,3,197.29
+474,Dictionary Model 474,4,49.18
+475,Fitness Band Model 475,5,254.56
+476,Dumbbell Model 476,5,365.26
+477,Dress Model 477,3,732.16
+478,Bicycle Helmet Model 478,5,98.92
+479,Football Model 479,5,866.72
+480,Running Shoes Model 480,5,79.2
+481,T-Shirt Model 481,3,590.27
+482,Tablet Model 482,1,3931.08
+483,Laptop Model 483,1,3003.75
+484,Desk Model 484,2,464.91
+485,Dress Model 485,3,245.4
+486,Biography Model 486,4,210.93
+487,Desk Model 487,2,1189.99
+488,Chair Model 488,2,77.93
+489,Cookbook Model 489,4,278.8
+490,Basketball Model 490,5,1168.05
+491,Headphones Model 491,1,1896.74
+492,Printer Model 492,1,3532.03
+493,Smartwatch Model 493,1,4576.58
+494,Backpack Model 494,3,413.29
+495,Smartwatch Model 495,1,3778.57
+496,Tablet Model 496,1,2970.39
+497,Running Shoes Model 497,5,1767.01
+498,Chair Model 498,2,541.77
+499,Backpack Model 499,3,465.27
+500,Lipstick Model 500,6,209.01

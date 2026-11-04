@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# IDE / operating system
+.vs/
+.DS_Store
+Thumbs.db
+
+# Runtime logs
+logs/*
+!logs/.gitkeep
