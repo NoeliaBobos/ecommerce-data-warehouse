@@ -26,7 +26,7 @@ A retail sales analytics project built with SQL Server, Python and Power BI. The
 
 ## Dataset
 
-The included CSV files contain synthetic retail data: 5,000 customers, 500 products, 20,000 orders, 60,422 order items, 6 categories and 5 stores. Customer email addresses use the reserved `example.com` domain.
+The included CSV files contain synthetic retail data: 5,000 customers, 500 products, 20,000 orders, 60,422 order items, 6 categories and 5 stores. Customer email addresses use the reserved `example.com` domain. The source data includes `Completed`, `Pending` and `Cancelled` orders.
 
 ## Setup
 
@@ -36,20 +36,20 @@ The included CSV files contain synthetic retail data: 5,000 customers, 500 produ
    pip install -r requirements.txt
    ```
 
-2. In SQL Server Management Studio, run `sql/create_oltp.sql` and `sql/create_dwh.sql` to create the databases and tables.
+2. In SQL Server Management Studio, run `sql/create_oltp.sql` and `sql/create_dwh.sql` to create the `Ecommerce_OLTP` and `Ecommerce_DWH` databases and their tables.
 3. Set the `SQL_SERVER` environment variable to your SQL Server host or instance. The default is `localhost`. The scripts use Windows Integrated Authentication by default. Optionally set `SQL_ODBC_DRIVER` if your installed ODBC driver has a different name.
 4. Validate the included source files:
 
    ```bash
    python etl/transform/validate_source.py
    ```
-5. Load the CSV files into OLTP, then load OLTP into the Data Warehouse:
+5. Load the CSV files into OLTP, then load OLTP into the Data Warehouse. The `FactSales` table includes **Completed** orders only; `Pending` and `Cancelled` orders remain available in OLTP but are excluded from sales-revenue KPIs:
 
    ```bash
    python etl/load/load_oltp_from_csv.py
    python etl/load/load_dwh_from_oltp.py
    ```
-6. Open `dashboard/ecommerce_sales_dashboard.pbix` in Power BI Desktop and configure its SQL Server data source for your environment.
+6. Open `dashboard/ecommerce_sales_dashboard.pbix` in Power BI Desktop and configure its SQL Server data source to use the `Ecommerce_DWH` database on your SQL Server instance.
 
 To regenerate the synthetic CSV files, run `python etl/extract/generate_source_data.py`. This overwrites the CSV files in `data/source_raw/`.
 
@@ -58,3 +58,4 @@ To regenerate the synthetic CSV files, run `python etl/extract/generate_source_d
 - The included dataset is synthetic and does not contain real customer contact information.
 - The SQL scripts create new databases; do not run them if databases with the same names already exist unless you have checked your environment first.
 - The ETL scripts currently use Windows Integrated Authentication.
+- Sales revenue is calculated from completed orders only. The OLTP database retains all order statuses for operational analysis.

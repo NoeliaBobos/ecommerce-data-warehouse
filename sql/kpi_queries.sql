@@ -1,6 +1,9 @@
 USE Ecommerce_DWH;
 GO
 
+-- FactSales is populated with Completed orders only.
+-- Pending and Cancelled orders remain in OLTP and are excluded from sales KPIs.
+
 -- ========================
 -- KPI 1: Total Revenue
 -- ========================

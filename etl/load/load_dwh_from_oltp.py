@@ -116,6 +116,7 @@ def main():
                 ON oi.ProductID = dp.ProductID
             INNER JOIN dwh.DimStore AS ds
                 ON o.StoreID = ds.StoreID
+            WHERE o.Status = 'Completed'
         """))
         print("FactSales loaded.")
         print("OLTP -> DWH load completed successfully.")
